@@ -3,7 +3,7 @@
         <div class="w-full h-100 overflow-hidden">
             <div class="rounded-b-4xl bg-linear-to-t from-sky-200 to-white h-full flex flex-wrap place-content-around">
                 <div class="mb-2 flex p-2 rounded-full flex items-center">
-                    <div class="bg-blue-500 shadow-xl shadow-sky-300/50 rounded-full flex justify-center items-center p-2">
+                    <div class="bg-blue-500 shadow-xl shadow-sky-300/50 rounded-full flex justify-center items-center p-6">
                         <svg width="90" height="90" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_429_11030)">

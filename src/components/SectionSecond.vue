@@ -6,9 +6,9 @@
             <p class="text-xl">Make more informed decisions by utilizing this easy-to-use, accurate trading calculator
                 to access potential traders.</p>
             <div class="flex mt-8">
-                <a href="#" class="w-max block bg-blue-500 text-white py-3 px-12 rounded-full me-6">Learn More</a>
+                <a href="#" class="w-max block bg-blue-500 text-white py-3 px-12 rounded-full me-6">Try Now</a>
                 <a href="#"
-                    class="w-max block outline-3 outline-blue-500 text-blue-500 py-3 px-12 rounded-full">Explore</a>
+                    class="w-max block outline-3 outline-blue-500 text-blue-500 py-3 px-12 rounded-full">Learn More</a>
             </div>
         </div>
 

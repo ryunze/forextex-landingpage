@@ -1,7 +1,8 @@
 <template>
-    <footer class="w-full h-100 bg-black text-white px-30 py-10">
-        <div class="flex">
-            <h2 class="text-blue-300 text-2xl font-bold">Forextex</h2>
+    <footer class="w-full bg-black text-white px-30 py-10">
+
+        <div class="flex items-center mb-12">
+            <h2 class="text-blue-300 text-4xl font-bold">Forextex</h2>
             <div class="ms-auto flex">
                 <div class="bg-white p-2 rounded-full me-2">
                     <svg class="w-5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -33,5 +34,101 @@
                 </div>
             </div>
         </div>
+
+        <div class="grid grid-cols-4 mb-16">
+            <div>
+                <h4 class="text-gray-300 text-xl font-bold mb-8">Platforms</h4>
+                <ul>
+                    <li class="mb-4">Forextex Trade</li>
+                    <li class="mb-4">MT4</li>
+                    <li class="mb-4">MT5</li>
+                    <li class="mb-4">CTrader</li>
+                    <li class="mb-4">Trading View</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-gray-300 text-xl font-bold mb-8">Trading</h4>
+                <ul>
+                    <li class="mb-4">Trading Accounts</li>
+                    <li class="mb-4">Trading Platforms</li>
+                    <li class="mb-4">Prop Trading</li>
+                    <li class="mb-4">Social Trading</li>
+                </ul>
+            </div>
+            <div class="ms-auto">
+                <h4 class="text-gray-300 text-xl font-bold mb-8">Company</h4>
+                <ul>
+                    <li class="mb-4">About Us</li>
+                    <li class="mb-4">Contact Us</li>
+                    <li class="mb-4">Events</li>
+                    <li class="mb-4">Regulations</li>
+                </ul>
+            </div>
+            <div class="ms-auto">
+                <h4 class="text-gray-300 text-xl font-bold mb-8">Get the app</h4>
+                <img class="w-42 outline outline-1 outline-white rounded-xl mb-4" src="/public/appstore.png"
+                    alt="Download Forextex App From AppStore">
+                <img class="w-42 outline outline-1 outline-white rounded-xl mb-4" src="/public/playstore.png"
+                    alt="Download Forextex App From PlayStore">
+                <img class="w-42 outline outline-1 outline-white rounded-xl" src="/public/qr.png"
+                    alt="Download Forextex App From PlayStore">
+            </div>
+        </div>
+
+        <hr class="mb-10 border-none outline-1 outline-gray-900">
+
+        <div class="grid grid-cols-2 gap-42">
+            <ul>
+                <li class="mb-8 border-l-4 border-gray-800 pl-4 border-l-4 border-gray-800 pl-4">
+                    We provide an innovative trading experience in a transparent trading environment to all
+                    traders. Opofinance trading experience is equipped with the latest trading tools and technology.
+                </li>
+                <li class="mb-8 border-l-4 border-gray-800 pl-4">
+                    OPO FINANCE PTY LTD is regulated by the Australian Securities and Investments
+                    Commission (ASIC) with license number (AFSL) 402043.
+                </li>
+                <li class="mb-8 border-l-4 border-gray-800 pl-4">
+                    OPO GROUP LLC is authorized under the Provision of Investment Services, Limited
+                    Liability Company act chapter 151 of the revised Laws of Saint Vincent and Grenadines 2009, With
+                    Number 866LLC2021 and with registered office: Suite 305, Griffith Corporate Centre, Beachmont,
+                    Kingstown, St. Vincent and the Grenadines.
+                </li>
+                <li class="mb-8 border-l-4 border-gray-800 pl-4">
+                    RISK DISCLAIMER: Trading involves a high level of risk and may not be suitable for all
+                    traders or investors. You should carefully consider your trading goals or objectives, financial
+                    situations, level of experience and needs before entering into margin trading with Opofinance. There
+                    is a risk of losing substantially more than the investor's initial investment. Hence, we advise you
+                    to only trade the products if you fully understand the risks involved, and can afford them.
+                </li>
+                <li class="border-l-4 border-gray-800 pl-4">
+                    Important: We are not accepting users from these countries: Turkey, Australia, USA, Japan, Canada, and North Korea.
+                </li>
+            </ul>
+            <ul>
+                <li class="mb-8 border-l-4 border-gray-800 pl-4">
+                    OPO GROUP LTD is a Securities Dealer registered in Seychelles with registration number
+                    8430865-1 and authorized by the Financial Services Authority (FSA) with license number SD124. The
+                    registered office of Opo Group Ltd is at CT House, Office 9D, Providence, Mahe Seychelles.
+                </li>
+                <li class="mb-8 border-l-4 border-gray-800 pl-4">
+                    OPO GROUP is an approved member of the Financial Commission an international organization engaged in
+                    the resolution of disputes within the financial services industry in the Forex market located in
+                    Hong Kong and London. The Financial Commission protects traders' interests, providing insurance for
+                    up to €20,000 per case.
+                </li>
+                <li class="mb-8 border-l-4 border-gray-800 pl-4">
+                    OTHER INFORMATION: The information on this website is subject to change at any time without any
+                    prior notice and is solely for educational purposes. The contents do not constitute investment
+                    advice and are provided as general market commentary. OPOFINANCE has taken measures to ensure the
+                    accuracy of the contents, however, does not guarantee it and is not liable for any losses incurred
+                    directly or indirectly from the use of or reliance on the website's information. Please read out the
+                    full Risk Disclosure Statement.
+                </li>
+                <li class="border-l-4 border-gray-800 pl-4">
+                    Refund: For refunds please email to (support@opofinance.com) and withdrawals take up to 1 business day.
+                </li>
+            </ul>
+        </div>
+
     </footer>
 </template>
